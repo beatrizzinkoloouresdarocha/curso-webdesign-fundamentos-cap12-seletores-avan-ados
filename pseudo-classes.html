@@ -4,58 +4,36 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Seletores de atributos</title>
+    <title>Pseudo-elementos</title>
 
-    <link rel="stylesheet" href="pseudo-classes-child.css">
+    <style>
+        p::first-letter {
+            font-size: 3em;
+            float: left;
+            margin-right: .2em;
+            line-height: 1;
+        }
+
+        p::first-line {
+            color: red;
+        }
+
+        ::selection {
+            background-color: orange;
+        }
+    </style>
 </head>
 
 <body>
-
-    <div>
-        <p>primeiro paragrafo</p>
-        <p>segundo paragrafo</p>
-        <p>terceiro paragrafo</p>
-    </div>
-    <hr>
-    <div>
-        <br>
-        <a href="#">primeiro link</a>
-        <p>primeiro paragrafo</p>
-        <br>
-        <p>segundo paragrafo</p>
-        <p>terceiro paragrafo</p>
-        <span>esta é só uma span</span>
-        <p>quarto paragrafo</p>
-    </div>
-
-    <ul>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-        <li>item de lista</li>
-    </ul>
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iure error quod vel quia itaque esse praesentium
+        iusto maiores nostrum inventore corrupti, perspiciatis est in exercitationem voluptate reiciendis ab!
+        Aspernatur.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iure error quod vel quia itaque esse praesentium
+        iusto maiores nostrum inventore corrupti, perspiciatis est in exercitationem voluptate reiciendis ab!
+        Aspernatur.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iure error quod vel quia itaque esse praesentium
+        iusto maiores nostrum inventore corrupti, perspiciatis est in exercitationem voluptate reiciendis ab!
+        Aspernatur.</p>
 </body>
 
 </html>
